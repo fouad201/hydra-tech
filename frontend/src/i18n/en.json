@@ -1,0 +1,104 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "services": "Our Services",
+      "courses": "Training",
+      "3dprinting": "3D Printing",
+      "contact": "Get in Touch"
+    },
+    "language": "Language",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "viewSolutions": "Explore Solutions",
+    "viewAllProducts": "View All Products",
+    "viewAllServices": "View All Services",
+    "viewAllCourses": "View All Courses",
+    "backTo": "Back to",
+    "requestQuote": "Request a Quote",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "hero": {
+      "title": "Hydra Tech",
+      "subtitle": "Innovative Automation & Industrial Solutions",
+      "description": "Transform your operations with cutting-edge automation technology, professional training, and custom 3D printing services. Your trusted partner for industrial excellence."
+    },
+    "solutions": {
+      "title": "Our Solutions",
+      "smartHome": {
+        "title": "Smart Home",
+        "description": "Explore innovative smart home solutions to enhance comfort, security, and energy efficiency with cutting-edge automation technology."
+      },
+      "automation": {
+        "title": "Automation Development",
+        "description": "Operation, maintenance and development of water plants with advanced automation systems for optimal efficiency."
+      },
+      "scada": {
+        "title": "SCADA Systems",
+        "description": "Operation, maintenance and development of drainage stations with state-of-the-art SCADA monitoring and control systems."
+      }
+    },
+    "about": {
+      "title": "About Hydra",
+      "description": "HYDRATECH provides high quality services, taking into consideration the time and cost factor and in line with the local market determinants. This is achieved through technical expertise of the management and employees of the company.",
+      "cta": "Learn More About Us"
+    },
+    "courses": {
+      "title": "Our Courses",
+      "plc": {
+        "title": "PLC Basics",
+        "description": "Master the fundamentals of Programmable Logic Controllers"
+      },
+      "pumps": {
+        "title": "Technology of Pumps & Compressors",
+        "description": "Comprehensive training on industrial pump and compressor systems"
+      },
+      "control": {
+        "title": "Classic Control",
+        "description": "Learn traditional control systems and their applications"
+      }
+    },
+    "products": {
+      "title": "Latest Products",
+      "panel": {
+        "title": "Panel Power for Low Voltage",
+        "description": "High-quality low voltage power distribution panels"
+      },
+      "contactor": {
+        "title": "Contactor",
+        "description": "Industrial-grade contactors for reliable switching"
+      },
+      "plc": {
+        "title": "PLC",
+        "description": "Advanced programmable logic controllers"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Operations?",
+      "description": "Partner with Hydratech for expert automation solutions, professional training, and innovative 3D printing services tailored to your needs.",
+      "button": "Get in Touch"
+    },
+    "why": {
+      "title": "Why Choose Hydratech?",
+      "expertise": "Expert Team",
+      "expertiseDesc": "Certified engineers with years of industry experience",
+      "quality": "Premium Quality",
+      "qualityDesc": "High-quality products and services that exceed expectations",
+      "support": "24/7 Support",
+      "supportDesc": "Round-the-clock technical support for your peace of mind",
+      "innovation": "Cutting-Edge Tech",
+      "innovationDesc": "Latest automation and 3D printing technologies"
+    }
+  },
+  "footer": {
+    "services": "Services",
+    "products": "Products",
+    "contact": "Contact Us",
+    "address": "53 Gesr El Suez St. - Nozha - Heliopolis - Building 3 C - Second Floor - Apartment 203",
+    "copyright": "© Copyrights 2025. All Rights Reserved."
+  }
+}
+
+

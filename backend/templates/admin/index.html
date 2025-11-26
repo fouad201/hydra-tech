@@ -1,0 +1,66 @@
+{% extends "admin/index.html" %}
+{% load static %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <style>
+        .dashboard-welcome {
+            background: linear-gradient(135deg, #0047AB 0%, #3b82f6 100%);
+            color: white;
+            padding: 32px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 16px rgba(0, 71, 171, 0.2);
+        }
+        
+        .dashboard-welcome h2 {
+            font-size: 28px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        
+        .dashboard-welcome p {
+            font-size: 16px;
+            opacity: 0.95;
+        }
+        
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #0047AB;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        .stat-card h3 {
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .stat-card p {
+            color: #0047AB;
+            font-size: 32px;
+            font-weight: 700;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="dashboard-welcome">
+        <h2>🚀 Welcome to Hydratech Admin Panel</h2>
+        <p>Manage your services, products, courses, and 3D printing projects from this powerful dashboard.</p>
+    </div>
+    
+    {{ block.super }}
+{% endblock %}
+

@@ -1,0 +1,208 @@
+/* Hydratech Custom Admin Styles for Jazzmin */
+
+:root {
+    --primary-color: #0047AB;
+    --primary-dark: #003d99;
+    --primary-light: #3b82f6;
+    --accent-color: #06b6d4;
+}
+
+/* Sidebar Customization */
+.sidebar-dark-primary {
+    background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%) !important;
+}
+
+.sidebar-dark-primary .nav-link {
+    color: #e2e8f0 !important;
+}
+
+.sidebar-dark-primary .nav-link:hover {
+    background: rgba(0, 71, 171, 0.2) !important;
+}
+
+.sidebar-dark-primary .nav-link.active {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-light) 100%) !important;
+    color: #ffffff !important;
+}
+
+/* Hide brand area in sidebar */
+.sidebar-dark-primary .brand-link {
+    display: none !important;
+}
+
+.sidebar-dark-primary .brand-image {
+    max-height: 45px !important;
+    height: 45px !important;
+    width: auto !important;
+    margin-right: 12px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    object-fit: contain !important;
+    filter: brightness(0) invert(1) !important;
+    transition: all 0.3s ease !important;
+}
+
+.sidebar-dark-primary .brand-link:hover .brand-image {
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(6,182,212,0.8)) !important;
+}
+
+.sidebar-dark-primary .brand-text {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+    margin-left: 0 !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Login logo styling */
+.login-logo {
+    margin-bottom: 32px !important;
+    text-align: center !important;
+}
+
+.login-logo img {
+    max-height: 90px !important;
+    width: auto !important;
+    margin-bottom: 24px !important;
+    object-fit: contain !important;
+    filter: drop-shadow(0 4px 12px rgba(0, 71, 171, 0.3)) !important;
+}
+
+.login-logo a {
+    color: var(--primary-color) !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+    text-decoration: none !important;
+    letter-spacing: 1px !important;
+}
+
+/* Main Content Area */
+.content-wrapper {
+    background: #f8fafc !important;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+    border: none !important;
+}
+
+.card-header {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-light) 100%) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+}
+
+.btn-info {
+    background: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+/* Tables */
+.table thead th {
+    background: var(--primary-color) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f0f9ff !important;
+}
+
+/* Nav pills */
+.nav-pills .nav-link.active {
+    background: var(--primary-color) !important;
+}
+
+/* Login page */
+.login-page {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+}
+
+.login-box {
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 71, 171, 0.15) !important;
+}
+
+.login-logo a {
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+}
+
+.login-card-body {
+    border-radius: 12px !important;
+}
+
+/* Brand link hover */
+.brand-link:hover {
+    background: var(--primary-dark) !important;
+}
+
+/* Info boxes on dashboard */
+.info-box {
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.info-box-icon {
+    border-radius: 12px 0 0 12px !important;
+}
+
+.bg-info {
+    background: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background: var(--primary-dark) !important;
+}
+
+/* Small boxes on dashboard */
+.small-box {
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.small-box.bg-info {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%) !important;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 71, 171, 0.25) !important;
+}
+
+/* Sidebar menu icons */
+.nav-sidebar .nav-icon {
+    color: #94a3b8 !important;
+}
+
+.nav-sidebar .nav-link.active .nav-icon {
+    color: #ffffff !important;
+}
+
+/* Footer */
+.main-footer {
+    background: #ffffff !important;
+    border-top: 2px solid #e5e7eb !important;
+    color: #6b7280 !important;
+}
